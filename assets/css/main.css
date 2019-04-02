@@ -159,6 +159,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
+			color: rgb(255, 72, 0);
 		}
 
 	strong, b {
@@ -1181,6 +1182,7 @@ input, select, textarea {
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
+		margin-top: -3rem;
 	}
 
 		#wrapper:before {
@@ -1310,6 +1312,7 @@ input, select, textarea {
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
+				font-weight: 700;
 			}
 
 		#header nav ul {
@@ -1343,10 +1346,11 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					font-weight: 800;
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgb(0, 255, 219);
 					}
 
 					#header nav ul li a:active {
