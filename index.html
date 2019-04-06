@@ -117,20 +117,21 @@
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="name" id="name" required />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="email" id="email" required />
 										</div>
 										<div class="field half">
 												<label for="subject">Subject</label>
-												<input type="text" name="subject" id="subject" />
+												<input type="text" name="subject" id="subject" required />
 											</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
+											<textarea name="message" required id="message" rows="4"></textarea>
 										</div>
+										<div data-netlify-recaptcha="true"></div>
 										<div class="field half">
 												<input type="checkbox" id="demo-human" name="demo-human" unchecked required>
 												<label for="demo-human">Not a robot</label>
