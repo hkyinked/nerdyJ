@@ -437,6 +437,8 @@
 					$this.find('input[type=text],input[type=email],input[type=password],input[type=subject],textarea')
 						.each(function(event) {
 
+							$this.find('')
+
 							var i = $(this);
 
 							if (i.attr('name').match(/-polyfill-field$/))
