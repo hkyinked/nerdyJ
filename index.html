@@ -124,7 +124,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<center><h3 class="major">Get in touch with me today!</h3></center>
-								<form method="GET" action="#thanks" data-netlify-recaptcha="true" data-netlify="true">
+								<form method="POST" action="#thanks" data-netlify-recaptcha="true" data-netlify="true">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -152,8 +152,10 @@
 											<label for="message">Message</label>
 											<textarea name="message" required id="message" rows="4"></textarea>
 										</div>
+										<br>
 											<div data-netlify-recaptcha="true">
 											</div>
+											<br>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
