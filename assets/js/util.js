@@ -434,7 +434,7 @@
 			$this
 				.on('submit', function() {
 
-					$this.find('input[type=text],input[type=email],input[type=password],input[type=subject],textarea')
+					$this.find('input[type=text],input[type=email],input[type=password],input[type=value],textarea')
 						.each(function(event) {
 
 							$this.find('')
