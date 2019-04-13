@@ -147,6 +147,89 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+	* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.text {
+  position: absolute;
+  width: auto;
+  left: 50%;
+  margin-left: -225px;
+  height: 60px;
+  top: 25%;
+  margin-top: -20px;
+}
+
+p {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	font-size: 1rem;
+  }
+
+.word {
+  position: absolute;
+  width: 300px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(40px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: rgb(255, 0, 179);
+}
+
+.belize {
+  color:rgb(33, 241, 14);
+}
+
+.pomegranate {
+  color: #ffffff;
+}
+
+.green {
+  color:rgb(0, 255, 219);
+}
+
+.midnight {
+  color: rgb(212, 114, 22);
+}
+.titan {
+  color: rgb(182, 96, 231)
+}
+
+
+label { margin-right: 10px; }
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -175,7 +258,7 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
 		color: rgb(255, 72, 0);
 		font-weight: 600;
 		line-height: 1.5;
