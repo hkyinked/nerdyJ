@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -238,6 +236,7 @@ label { margin-right: 10px; }
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
+		font-size: 1rem;
 	}
 
 		a:hover {
@@ -273,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 1px rgb(0, 255, 219);
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -318,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 2rem;
 			line-height: 1.5;
 		}
 
@@ -804,6 +803,7 @@ h1, h2, h3, h4, h5, h6 {
 
 		ul li {
 			padding-left: 0.5em;
+			size: 45%;
 		}
 
 		ul.alt {
@@ -812,7 +812,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #ffffff;
+				border-top: solid 1px rgb(212, 114, 22);
 				padding: 0.5em 0;
 			}
 
