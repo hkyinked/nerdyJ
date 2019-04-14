@@ -69,6 +69,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.img-round {
+	border-radius: 80%;
+}
 
 /* Basic */
 
@@ -224,8 +227,37 @@ p {
 .titan {
   color: rgb(182, 96, 231)
 }
+.corners { 
+	background: #d4d5d611;
+	height: 500px;
+	margin: 50px auto;
+	max-width: 600px;
+	position: relative;
+	width: auto;
+	box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.2);
+  }
+  
+  /* Corner Effect */
+  .corners:after,
+  .corners:before {
+	background: #bebdbd;
+	content: '';
+	height: 50px;
+	position: absolute;
+	top: -25px;
+	width: 100px;
+	box-shadow: 0 5px 10px -7px hsla(0, 0% ,0%, 0.5);
+  }
+  .corners:after {
+	left: -50px;
+	transform: rotate(-45deg);
+  }
+  .corners:before {
+	right: -50px;
+	transform: rotate(45deg);
+  }
 
-
+  
 label { margin-right: 10px; }
 
 	a {
