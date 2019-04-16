@@ -242,22 +242,23 @@ p {
 .card1 {
   text-align:center;
   position: inherit;
+  float: left;
   left: 100px;
-  width: 250px;
+  width: auto;
   height: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: linear-gradient(rgb(226, 226, 228),rgb(123, 121, 124));
+  background: linear-gradient(rgba(106, 106, 158, 0),rgba(106, 106, 158, 0.233));
   transition:.6s;
   
   transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+  box-shadow: 0px 20px 60px rgb(0, 255, 219);
 }
 .card1:hover{
   transform: rotatex(10deg);
   transform: rotatez(10deg);
   transition:.6s;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px rgb(212, 114, 22);
 }
 .card1 img{
   transform: translateY(15px);
@@ -286,25 +287,24 @@ h3{
   text-align:center;
   position: inherit;
   float: right;
-  left: 550px;
-  width: 250px;
+  left: auto;
+  width: auto;
   height: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: linear-gradient(rgb(226, 226, 228),rgb(123, 121, 124));
+  background: linear-gradient(rgba(106, 106, 158, 0),rgba(106, 106, 158, 0.233));
   animation: animate 1s linear infinite;
   transition:.6s;
-  justify-content: flex-start;
-  transform: rotateZ(10deg);
+
   
-  transform: rotatex(75deg) translatey(-200px) translatez(10px);
-  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgb(0, 255, 219);
 }
 .card2:hover{
    transform: rotatex(-10deg);
    transform: rotatez(-10deg);
   transition:.6s;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px rgb(212, 114, 22);
 }
 .card2 img{
   transform: translateY(55px);
@@ -359,7 +359,7 @@ h3{
 	box-shadow: 0px 0px 20px rgb(212, 114, 22)
   }
   .card4 img{
-	transform: translateY(30px);
+	transform: translateY(45px);
 	width:auto;
 	height:auto;
   }
