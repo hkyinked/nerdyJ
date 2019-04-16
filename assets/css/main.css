@@ -309,8 +309,8 @@ h3{
 .card2 img{
   transform: translateY(55px);
   transform: rotateZ(-50px);
-  width:250px;
-  height:250px;
+  width:180px;
+  height:150px;
 }
 .card3 {
   text-align:center;
