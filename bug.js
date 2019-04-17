@@ -341,7 +341,7 @@ var SpiderController = function() {
         bugWidth: 69,
         bugHeight: 90,
         num_frames: 7,
-        canFly: false,
+        canFly: true,
         canDie: true,
         numDeathTypes: 2,
         zoom: 6,
@@ -551,7 +551,7 @@ var Bug = {
             bug.style.position = 'fixed';
             bug.style.top = 0;
             bug.style.left = 0;
-            bug.style.zIndex = '9999999';
+            bug.style.zIndex = 'auto';
 
             this.bug = bug;
             this.setPos();

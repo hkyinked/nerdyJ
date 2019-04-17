@@ -174,7 +174,7 @@ p {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0;
-	font-size: 1rem;
+	font-size: 1.1rem;
   }
 
 .word {
@@ -244,7 +244,7 @@ p {
   position: inherit;
   float: left;
   left: auto;
-  width: auto;
+  width: 280px;
   height: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -409,7 +409,7 @@ label { margin-right: 10px; }
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted 1.3px rgb(212, 114, 22);
 		text-decoration: none;
 		color: inherit;
 		font-size: 1rem;
@@ -484,6 +484,16 @@ h1, h2, h3, h4, h5, h6 {
 	h6 {
 		font-size: 0.6rem;
 	}
+
+	.jumbotron {
+		background-origin: padding-box;
+		border: 2px dotted rgb(212, 114, 22);
+		text-align: center;
+	}
+	.jumbotron:hover {
+		color: rgb(0, 255, 219); 
+	}
+	
 
 	@media screen and (max-width: 736px) {
 
