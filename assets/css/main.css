@@ -35,6 +35,10 @@ ol, ul {
 	list-style: none;
 }
 
+.hr.break {
+	border: 2px dashed rgb(212, 114, 22);
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -137,6 +141,7 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
+		
 
 		}
 
@@ -232,7 +237,7 @@ p {
 @import url('https://fonts.googleapis.com/css?family=Abel');
 
 .title{
-  width:100%;
+  width:75%;
   text-align: center;
 }
 .title h1{
@@ -253,7 +258,7 @@ p {
   transition:.8s;
   
   transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-  box-shadow: 0px 20px 60px rgb(0, 255, 219);
+  box-shadow: 0px 10px 40px rgb(0, 255, 219);
 }
 .card1:hover{
   transform: rotatex(-8deg);
@@ -290,17 +295,17 @@ h3{
   position: inherit;
   float: right;
   left: auto;
-  width: auto;
+  width: 280px;
   height: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   background: linear-gradient(rgba(106, 106, 158, 0),rgba(106, 106, 158, 0.233));
   animation: animate 1s linear infinite;
   transition:.6s;
 
   
   transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-  box-shadow: 0px 20px 60px rgb(0, 255, 219);
+  box-shadow: 0px 10px 40px rgb(0, 255, 219);
 }
 .card2:hover{
    transform: rotatex(-10deg);
@@ -345,8 +350,8 @@ h3{
 	width: auto;
 	max-width: 800px;
 	height: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	background: linear-gradient(rgba(106, 106, 158, 0),rgba(106, 106, 158, 0.233));
 	transition:.6s;
 	transform: perspective(800PX) rotateX(80px);
@@ -368,15 +373,15 @@ h3{
 
 .corners { 
 	background-attachment: fixed;
-	background-image: url("");
-	height: 400px;
+	background-image: url("images/sticky1.png");
+	height: auto;
 	margin: 50px auto;
-	margin-top: 8%;
-	max-width: auto;
+	margin-top: 3%;
+	max-width: 500px;
 	border-radius: 2%;
 	position: relative;
 	width: auto;
-	box-shadow: 0 1px 7px rgb(212, 114, 22);
+	box-shadow: 0 0px 25px rgb(0, 255, 219);
   }
   
   /* Corner Effect */
@@ -389,6 +394,9 @@ h3{
 	top: -15px;
 	width: 90px;
 	box-shadow: 0 5px 10px -7px rgb(212, 114, 22);
+  }
+  .corners:hover {
+	  box-shadow: 0px 0px 20px rgb(212, 114, 22);
   }
   .corners:after {
 	left: -50px;
@@ -484,7 +492,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 0.6rem;
 	}
 
-	.jumbotron {
+	.jumbotron1 {
 		background-origin: padding-box;
 		border: 2px dotted rgb(212, 114, 22);
 		text-align: center;
@@ -1526,7 +1534,7 @@ h1, h2, h3, h4, h5, h6 {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: rgb(212, 114, 22);
 			}
 
 		#header > :first-child {
@@ -1541,7 +1549,7 @@ h1, h2, h3, h4, h5, h6 {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px rgb(212, 114, 22);
 			border-radius: 100%;
 		}
 
@@ -1551,7 +1559,7 @@ h1, h2, h3, h4, h5, h6 {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: rgb(212, 114, 22);
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1566,7 +1574,7 @@ h1, h2, h3, h4, h5, h6 {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
+				padding: 1rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
@@ -1591,13 +1599,13 @@ h1, h2, h3, h4, h5, h6 {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 1px rgb(212, 114, 22);
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px rgb(212, 114, 22);
 			}
 
 				#header nav ul li:first-child {
