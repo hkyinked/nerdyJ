@@ -31,6 +31,7 @@ body {
 	line-height: 1;
 }
 
+
 ol, ul {
 	list-style: none;
 }
@@ -251,8 +252,8 @@ p {
   left: auto;
   width: 280px;
   height: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1px;
+  margin-bottom: 3px;
   background: linear-gradient(rgba(106, 106, 158, 0),rgba(106, 106, 158, 0.233));
   animation: animate 1s linear infinite;
   transition:.8s;
@@ -294,10 +295,10 @@ h3{
   text-align:center;
   position: inherit;
   float: right;
-  left: auto;
+  left: 75%;
   width: 280px;
   height: 400px;
-  margin-top: 3px;
+  margin-top: 1px;
   margin-bottom: 3px;
   background: linear-gradient(rgba(106, 106, 158, 0),rgba(106, 106, 158, 0.233));
   animation: animate 1s linear infinite;
@@ -372,7 +373,7 @@ h3{
   }
 
 .corners { 
-	background-attachment: fixed;
+	background-attachment: sticky;
 	background-image: url("images/sticky1.png");
 	height: auto;
 	margin: 50px auto;
@@ -529,10 +530,16 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	blockquote {
-		border-left: solid 4px #ffffff;
+		border-left: solid 4px rgb(212, 114, 22);
 		font-style: italic;
 		margin: 0 0 2rem 0;
-		padding: 0.5rem 0 0.5rem 2rem;
+		padding: 0.5rem 0 0.5rem .5rem;
+		font-weight: 100;
+		font-size: 1.2rem;
+	}
+	blockquote a {
+		font-weight: 800;
+		font-size: 1.3rem;
 	}
 
 	code {
@@ -559,8 +566,8 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 	hr {
-		border: 0;
-		border-bottom: solid 1px #ffffff;
+		border: 10%;
+		border-bottom: solid 1.5px rgb(212, 114, 22);
 		margin: 2.75rem 0;
 	}
 
