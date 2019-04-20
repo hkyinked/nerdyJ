@@ -1025,7 +1025,8 @@ h1, h2, h3, h4, h5, h6 {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1em;
+		/*padding-left: 01em;*/
+		display: inline;
 	}
 
 		ul li {
@@ -1218,7 +1219,74 @@ h1, h2, h3, h4, h5, h6 {
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+				li.icon, #iconaward {
+					height: 30px;
+					widows: 40px;
+				}
+				li.icon, #iconaward:hover {
+					box-shadow: 0 0 0 0 rgb(0, 255, 219);
+				}
+/*badges*/
+.hex{
+	max-width: 15%;
+	top: 10%;
+	z-index: 15;
+}
+.hex.badges {
+	display: inline-block;
+	position: relative;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin: 1rem;
+	padding: 1.3rem;
+	color: rgb(212, 114, 22);
+}
+.badges:hover{
+	color:rgb(0, 255, 219);
+	cursor: crosshair;
+}
+.badges {
+	display: inline-block;
+	position: relative;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin: 1rem;
+	padding: 1.3rem;
+	color: rgb(212, 114, 22);
+}
+.badges:hover{
+	color:rgb(0, 255, 219);
+	cursor: crosshair;
+}
+.ribbon:hover{
+	color:rgb(0, 255, 219);
+	cursor: crosshair;
+}
 
+	/*@media include margin-auto;*/
+	i.fa {
+		font-size: 2em;
+		margin-top: 8px;
+	}
+
+.ribbon {
+	position: inherit;
+	border-radius: 4px;
+	/*padding: 5px 5px 4px;*/
+	width: 100px;
+	/*z-index: 10;*/
+	color: #fff;
+	bottom: 12px;
+	left: auto;
+	margin-left: -18px;
+	height: 20px;
+	font-size: 14px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	background: linear-gradient(to bottom right, #555 0%, #333 100%);
+	cursor: crosshair;
+}
 /* Table */
 
 	.table-wrapper {
