@@ -40,6 +40,14 @@ ol, ul {
 	border: 2px dashed rgb(212, 114, 22);
 }
 
+span {
+	font-size: .8rem;
+	color:rgb(0, 255, 219);
+	text-shadow: 3px 0 3px rgb(212, 114, 22);
+	
+	
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -77,6 +85,15 @@ input, select, textarea {
 .img-round {
 	border-radius: 80%;
 }
+
+a:hover {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+	background-position: 0 100%;
+	background-size: auto 6px;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	color: rgb(212, 114, 22);
+  }
 
 /* Basic */
 
@@ -170,7 +187,7 @@ body {
   position: absolute;
   width: auto;
   left: 50%;
-  margin-left: -225px;
+  margin-left: -360px;
   height: 60px;
   top: 25%;
   margin-top: -20px;
@@ -186,7 +203,8 @@ p {
 .word {
   position: absolute;
   width: 300px;
-  opacity: 0;
+  opacity: 1;
+  font-size: 1rem;
 }
 
 .letter {
@@ -216,7 +234,7 @@ p {
 }
 
 .belize {
-  color:rgb(33, 241, 14);
+  color:rgb(255, 0, 0);
 }
 
 .pomegranate {
@@ -274,11 +292,11 @@ p {
   height:120px;
 }
 h3{
-  font-size:25px;
+  font-size: 2rem;
   font-family: 'Abel', sans-serif;
-  color:rgb(255,255,255);
-  text-shadow: 0 0 2px rgb(255,255,255);
-  transform: translatey(10px);
+  color:rgb(212, 114, 22);
+  text-shadow: 3px 0 3px rgb(0, 255, 219);
+ /* transform: translatey(-10px);*/
 }
 
 /*p{
@@ -385,7 +403,7 @@ h3{
 	box-shadow: 0 0px 25px rgb(0, 255, 219);
   }
   
-  /* Corner Effect */
+  /* Corner Effect 
   .corners:after,
   .corners:before {
 	background: rgba(0, 255, 221, 0.637);
@@ -406,7 +424,7 @@ h3{
   .corners:before {
 	right: -50px;
 	transform: rotate(50deg);
-  }
+  }*/
 .cards, .card1, .card2 {
 	font-size: .7rem;
 }
@@ -478,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 
 	h4 {
@@ -495,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.jumbotron1 {
 		background-origin: padding-box;
-		border: 2px dotted rgb(212, 114, 22);
+		border: 2px solid rgb(212, 114, 22);
 		text-align: center;
 	}
 	.jumbotron:hover {
