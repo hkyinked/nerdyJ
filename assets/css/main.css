@@ -1030,7 +1030,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/*padding-left: 0.5em;*/
 			size: 45%;
 		}
 
@@ -1236,10 +1236,11 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 15;
 	justify-content: space-between;
 }
-.hex.devicon:hover{
+.hex.devicon{
 	border-image: 80%;
 	max-width: 80px;
 	max-height: 80px;
+	left: 1px;
 }
 i.hex.badges {
 	display: inline-block;
@@ -1257,7 +1258,7 @@ i.hex.badges {
 .badges {
 	display: inline-block;
 	position: relative;
-	margin-left: 1em;
+	margin-left: 0em;
 	margin-right: 1em;
 	margin: 1rem;
 	color: rgb(255, 72, 0);
@@ -1298,7 +1299,7 @@ i.hex.badges {
 	color: #fff;
 	bottom: 12px;
 	left: auto;
-	margin-left: -18px;
+	margin-left: 1x;
 	height: 20px;
 	font-size: 14px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
