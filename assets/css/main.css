@@ -1261,7 +1261,7 @@ i.hex.badges {
 	background-color: rgb(0, 255, 219);
 	border-end-start-radius: 50%;
 	border-end-end-radius: 0%;
-	border-radius: 85%;
+	border-radius: 95%;
 }
 .badges:hover{
 	color:rgb(0, 255, 219);
@@ -1276,6 +1276,7 @@ i.hex.badges {
 .ribbon:hover{
 	color:rgb(0, 255, 219);
 	cursor: crosshair;
+	z-index: 10;
 }
 
 	/*@media include margin-auto;*/
@@ -1290,6 +1291,9 @@ i.hex.badges {
 			margin-top: 2px;
 			margin-bottom: 1px;
 		}
+	li.badges.d-flex:hover{
+		color:rgb(182, 96, 231);
+	}
 .devicon {
 	width: 100px;
 	height: 100px;
@@ -1302,12 +1306,12 @@ i.hex.badges {
 	/*padding: 5px 5px 4px;*/
 	width: 100%;
 	z-index: 10;
-	color: rgb(0, 255, 219);
+	color: rgb(255, 72, 0);
 	bottom: 12px;
 	left: auto;
 	margin-left: 1x;
 	height: 20px;
-	font-size: 14px;
+	font-size: 13px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
 	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 	text-transform: uppercase;
