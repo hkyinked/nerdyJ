@@ -1226,20 +1226,29 @@ h1, h2, h3, h4, h5, h6 {
 				li.icon, #iconaward:hover {
 					box-shadow: 0 0 0 0 rgb(0, 255, 219);
 				}
+/*hexagon*/
+
 /*badges*/
 .hex{
-	max-width: 15%;
-	top: 10%;
+	display: inline-block;
+	max-width: 900px;
+	max-height: 800px;
 	z-index: 15;
+	justify-content: space-between;
 }
-.hex.badges {
+.hex.devicon:hover{
+	border-image: 80%;
+	max-width: 80px;
+	max-height: 80px;
+}
+i.hex.badges {
 	display: inline-block;
 	position: relative;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin: 1rem;
 	padding: 1.3rem;
-	color: rgb(212, 114, 22);
+	color: rgb(255, 72, 0);
 }
 .badges:hover{
 	color:rgb(0, 255, 219);
@@ -1251,8 +1260,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 1em;
 	margin-right: 1em;
 	margin: 1rem;
-	padding: 1.3rem;
-	color: rgb(212, 114, 22);
+	color: rgb(255, 72, 0);
 }
 .badges:hover{
 	color:rgb(0, 255, 219);
@@ -1266,15 +1274,27 @@ h1, h2, h3, h4, h5, h6 {
 	/*@media include margin-auto;*/
 	i.fa {
 		font-size: 2em;
-		margin-top: 8px;
+		margin-top: 2px;
+		margin-bottom: 1px;
 	}
+		/*@media include margin-auto;*/
+		i.fa {
+			font-size: 2em;
+			margin-top: 2px;
+			margin-bottom: 1px;
+		}
+.devicon {
+	width: 100px;
+	height: 100px;
+	border-image: 0%;
 
+}
 .ribbon {
-	position: inherit;
+	position: absolute;
 	border-radius: 4px;
 	/*padding: 5px 5px 4px;*/
-	width: 100px;
-	/*z-index: 10;*/
+	width: 100%;
+	z-index: 10;
 	color: #fff;
 	bottom: 12px;
 	left: auto;
