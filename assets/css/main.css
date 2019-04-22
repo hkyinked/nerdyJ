@@ -185,10 +185,10 @@ body {
   position: absolute;
   width: auto;
   left: 50%;
-  margin-left: -360px;
-  height: 60px;
-  top: 25%;
-  margin-top: -20px;
+  margin-left: -160px;
+  height: 80px;
+  top: 20%;
+  margin-top: -10px;
 }
 
 p {
@@ -610,6 +610,42 @@ h1, h2, h3, h4, h5, h6 {
 		text-align: right;
 	}
 
+/*projects*/
+.img,#project-racing{
+	display: inline-block;
+	position: relative;
+	top: 14px;
+	left:20px;
+	float: left;
+	max-width: auto;
+	max-height: auto;
+	box-sizing: content-box;
+	padding-right: 5rem;
+}
+.tools{
+	display: inline-block;
+	width: 7rem;
+	height: 4rem;
+}
+.language.d-flex {
+	display: inline-block;
+	float: right;
+	right:10%;
+	position: relative;
+	border: 0 solid rgb(255, 72, 0);
+	box-sizing: border-box;
+	padding: .2rem;
+	margin: 5px;
+	background-color: rgb(255, 72, 0);
+	border-radius: 1.1rem;
+}
+.span.li.tools{
+	float: right;
+	display: inline-block;
+	position: absolute;
+	margin-right: 3rem;
+	padding-left: 70%;
+}
 /* Form */
 
 	form {
@@ -1000,6 +1036,12 @@ h1, h2, h3, h4, h5, h6 {
 				margin: 2rem 0;
 			}
 
+			.img,#project-racing{
+				max-width: 736px;
+				max-height: 400px;
+				box-sizing: content-box;
+				padding-right: 2rem;}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1007,6 +1049,12 @@ h1, h2, h3, h4, h5, h6 {
 			.image.main {
 				margin: 1.5rem 0;
 			}
+
+			.img,#project-racing{
+				max-width: 250px;
+				max-height: 150px;
+				box-sizing: content-box;
+				padding-right: 1rem;}
 
 		}
 
