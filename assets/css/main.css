@@ -628,19 +628,19 @@ h1, h2, h3, h4, h5, h6 {
 span.tools.d-flex{
 	background-color: transparent;
 	display: grid -moz-inline-grid;
-
+	position: absolute;
+	top:10%;
+	left:6%;
+	z-index: 99;
 }
 .tools{
 	display: inline-block;
-	float: right;
 	width: 10em;
 	height: 1rem;
 
 }
 .language.d-flex {
 	display: inline-block;
-	float: right;
-	right:10%;
 	position: relative;
 	border: 0 solid rgb(255, 72, 0);
 	box-sizing: border-box;
