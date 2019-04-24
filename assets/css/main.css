@@ -208,7 +208,7 @@ p {
 .letter {
   display: inline-block;
   position: relative;
-  /*float: left;*/
+  float: left;
   transform: translateZ(40px);
   transform-origin: 50% 50% 25px;
 }
