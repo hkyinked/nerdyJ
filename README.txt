@@ -4,6 +4,7 @@ This is fun little portfolio resume of myself "pages" with a cool depth effect (
 *Want to work together please feel free to contact me!* [itnerdyjohn@gmail]
 
 [![HitCount](http://hits.dwyl.io/hkyinked/nerdyj.svg)](http://hits.dwyl.io/hkyinked/nerdyj)
+
 Credits :
 
 	Icons:
