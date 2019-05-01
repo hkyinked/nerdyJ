@@ -5,10 +5,11 @@ This is fun little portfolio resume of myself "pages" with a cool depth effect (
 
 *Want to work together please feel free to contact me!* [itnerdyjohn@gmail]
 
+<!--:Github-->
+[![HitCount](http://hits.dwyl.io/hkyinked/nerdyj.svg)](http://hits.dwyl.io/hkyinked/nerdyj)
 
-[![HitCount](http://hits.dwyl.io/hkyinked/nerdyj.svg)](http://hits.dwyl.io/hkyinked/nerdyj):Github
-
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=www.nerdyjwebdesign.com):nerdyjwebdesign
+<!--:nerdyjwebdesign-->
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=www.nerdyjwebdesign.com)
 
 Credits :
 
