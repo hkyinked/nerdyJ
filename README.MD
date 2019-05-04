@@ -17,6 +17,6 @@ Credits :
 		Font Awesome (fontawesome.io)
 		Devicon icons (konpa.github.io/devicon)
 	Other:
-		Additional Components: @ajlkn
+		Additional Components: @ajlkn, @HTML5UP
 		JQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
