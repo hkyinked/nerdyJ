@@ -1,4 +1,5 @@
 FROM nginx:alpine
-COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
-EXPOSE 80
+COPY --from=build-deps /home/purplekush/Documents/html5up /usr/share/nginx/html
+EXPOSE 80 443 
 CMD ["nginx", "-g", "daemon off;"]
+
