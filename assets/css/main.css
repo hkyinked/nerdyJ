@@ -389,11 +389,12 @@ h3{
 	height:auto;
   }
 
-  .jumbotron#test{
+  .jumbotron1#test{
 	background-color:transparent;
 	max-width: auto;
 	max-height: auto;
-	border: 2px solid rgb(255, 72, 0);
+	border: .5px solid;
+	border-radius: 1em;
   }
 .corners { 
 	background-attachment: sticky;
@@ -530,12 +531,12 @@ h1, h2, h3, h4, h5, h6 {
 		background-origin: padding-box;
 		text-align: center;
 		box-shadow: 0 0 20px rgb(0, 255, 219);
+		border-radius: 1em;
 	}
 	.jumbotron1:hover {
 		box-shadow: 0 0 20px rgb(212, 114, 22);
 	}
 	
-
 	@media screen and (max-width: 736px) {
 
 		h1 {
