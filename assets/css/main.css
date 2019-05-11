@@ -389,6 +389,12 @@ h3{
 	height:auto;
   }
 
+  .jumbotron#test{
+	background-color:transparent;
+	max-width: auto;
+	max-height: auto;
+	border: 2px solid rgb(255, 72, 0);
+  }
 .corners { 
 	background-attachment: sticky;
 	background-image: url("images/sticky1.png");
