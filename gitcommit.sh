@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'what directory are you wanting to commit?'
 read dirvar #reads user input for directory then changes to that directory
-cd  ~/webapps/$dirvar
+cd  ~/webapps/${dirvar}
 
 #first checks status of git repo
 if [ "$(git status --porcelain)" ]; then 
