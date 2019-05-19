@@ -9,8 +9,8 @@ sleep 3
 
 #asks usr for commit title
 echo 'what are you commiting today?'
-read commitpush #reads users input and saves it to the varible named "commitpush"]
-git commit -m "commitpush"
+read 'commitpush' #reads users input and saves it to the varible named "commitpush"]
+git commit -m 'commitpush'
 sleep 2
 #git push commit data to github repo
 git push origin master
