@@ -1,4 +1,8 @@
 #!/bin/bash
+echo 'what directory are you wanting to commit?'
+read dirvar #reads user input for directory then changes to that directory
+cd  ~/webapps/$dirvar
+
 #first checks status of git repo
 if [ "$(git status --porcelain)" ]; then 
 #working directory clean
@@ -14,8 +18,7 @@ git commit -m "commitpush"
 sleep 2
 #git push commit data to github repo
 git push origin master
-sleep 4
-#read -p 'username: ' uservar
-#read -sp 'Password: ' passvar
+sleep 5
+
 echo thanks for your contribution today
 fi
