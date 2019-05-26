@@ -268,12 +268,25 @@
 											 <li><h4>You should already know how to download and install your OS to a microSD card.</li></h4>
 										 </ul>
 										 <h5>
-											 Worth noting:
+											 Worth noting Disclaimer:
 										 </h5>
 										 <ul>
 										 <li><h4>If you wish to follow along with this tutorial, you will need to add an ssh file to the root directory. (this is done so we can ssh into the machine without using a monitor).</li>
 										 <li><h4>I did not take screen shots of every step.</li></h4>
 										</ul>
+										<p>
+											<h3>
+												Steps:
+											</h3>
+											<h4>
+												<li>Once you have the OS downloaded and installed onto your MicroSD card, go ahead and insert it into the raspberry pi. Now go ahead and insert the ethernet cable and then the power cable <h5>(If you decided to run a headless instance like this tutorial make sure to read the prerequisites and Disclaimer section prior to this step).</h5></li><br>
+												<li>Once your raspberry pi is up and running you have two options depending on your comfortability of skill level: </h4>
+													<h6><li>You can use the GUI for your ISP to find the IP address of your raspberry pi. Or:</li></h6>
+													<h6><li>You could use the command line to find the IP address of your raspberry pi using networking tools such as nmap.</li></h6>
+												<h4><li>Now that you have the IP address for your raspberry pi you can now ssh into it.</li>
+												<img src="images/cluster/ssh-pi.png" alt="ssh-pi"></h4>
+												&nbsp; <h4><li>Once We've ssh'd into our machine the first thing I did was to initilize a docker swarm.</li></h4>
+										</p>
 										 <br>
 										 <center><ul class="icons">
 											<li><a href="#projects" class="icon"><img src="images/icons8-running-24 (rvse).svg">Projects</a></span></a></li>&nbsp; &nbsp;
