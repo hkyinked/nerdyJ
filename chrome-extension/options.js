@@ -1,5 +1,5 @@
 // Saves options to chrome.storage
-function save_options() {
+/*function save_options() {
   var bugs = document.getElementById('bugs').checked;
   var spiders = document.getElementById('spiders').checked;
 
@@ -47,4 +47,4 @@ function restore_options() {
 }
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click',
-    save_options);
+    save_options);*/
