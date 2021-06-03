@@ -1,12 +1,12 @@
-This is fun little portfolio resume of myself "pages" with a cool depth effect (click one of the links to find out what i mean). 
+This is fun little portfolio resume of myself "pages" with a cool depth effect (just click the link below to find out).
 
-	
+<b>www.nerdyj.com</b>	
 
 
-*Want to work together please feel free to contact me!* [itnerdyjohn@gmail]
+<b>*Want to work together please feel free to contact me!* [itnerdyjohn@gmail]</b>
 
-<!--:Github-->
-[![HitCount](http://hits.dwyl.io/hkyinked/nerdyj.svg)](http://hits.dwyl.io/hkyinked/nerdyj)
+<!--:Github
+[![HitCount](http://hits.dwyl.io/hkyinked/nerdyj.svg)](http://hits.dwyl.io/hkyinked/nerdyj)-->
 
 <!--:nerdyjwebdesign-->
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=www.nerdyjwebdesign.com)
