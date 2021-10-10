@@ -2,6 +2,7 @@
 This is fun little portfolio resume of myself. Check out some of my projects I am working on or have worked on. Check out my Resume, or even contact me there if you wish to know more or even work on a project together. See ya there!
 Check out the link Below.<b>
 <p align="center" >https://nerdyj.com</p></b>
+<p align="center">Author: Nerdyj</p>
 
 <p>Build Status:
 
